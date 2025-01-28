@@ -13,4 +13,5 @@ El juego permite a dos jugadores alternar turnos para colocar "X" y "O" en una c
   
 #Deploy
 https://tres-en-linea-six.vercel.app/
+
 ![image](https://github.com/user-attachments/assets/ef03724c-5734-4f35-9966-c4cff723ccb7)
