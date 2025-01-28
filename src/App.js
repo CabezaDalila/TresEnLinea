@@ -25,15 +25,16 @@ export default function Board() {
 
   if (winner) {
     status = "Ganador: " + winner;
+  } else if (squares.every((square) => square !== null)) {
+      status = "Empate"
   } else {
     status = "Siguiente jugador: " + (xIsNext ? "X" : "0");
   }
 
   return (
-    <div className="game">
-      <div className="status">
-        {status}
-      </div>
+    <div className="game-container">
+       <h1 className="game-title">Tres en linea</h1>
+      <div className="status">{status}</div>
       <div className="board">
         <div className="board-row">
           <Square value={squares[0]} onSquareClick={() => handleClick(0)} />
@@ -52,7 +53,8 @@ export default function Board() {
         </div>
       </div>
       <div > 
-      <button className="buttonReset" onClick={() => {
+      <button className="reset-button"
+      onClick={() => {
         setSquares(Array(9).fill(null));
         setXIsNext(true);
       }}>
