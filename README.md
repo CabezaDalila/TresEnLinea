@@ -1,11 +1,6 @@
 # Tres En Linea
-# Tres En Linea
 
-Este es un juego de Tres en Línea (Tic-Tac-Toe) desarrollado con React.
-
-## Descripción
-
-El juego permite a dos jugadores alternar turnos para colocar "X" y "O" en una cuadricula. El primer jugador en alinear tres de sus símbolos en una fila, columna o diagonal gana el juego. Si la cuadrícula se llena sin que ningún jugador gane, el juego termina en empate.
+Este juego permite a dos jugadores alternar turnos para colocar "X" y "O" en una cuadricula. El primer jugador en alinear tres de sus símbolos en una fila, columna o diagonal gana el juego. Si la cuadrícula se llena sin que ningún jugador gane, el juego termina en empate.
 
 #Tecnologías
 - React
